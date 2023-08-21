@@ -110,14 +110,27 @@ header {
 
 .testimonials-grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4rem;
 }
 
 .testimonials-grid-item {
   padding: 20px;
-  text-align: center;
+}
+
+.testimonials-img-wrapper img {
+  width: 20%;
+  border-radius: 100%;
+  margin-bottom: 3rem;
+}
+
+.testimonials-text {
+  margin-bottom: 1.2rem;
+}
+
+.testimonials-credentials {
+  color: var(--dark-blue);
+  font-weight: 700;
 }
 
 /* PROJECTS SECTION */
