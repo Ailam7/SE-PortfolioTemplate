@@ -66,3 +66,7 @@ a {
   line-height: 3rem;
   margin-bottom: 3.6rem;
 }
+
+.align-center {
+  text-align: center;
+}

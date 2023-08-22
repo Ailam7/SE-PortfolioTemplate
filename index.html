@@ -364,7 +364,34 @@
             Your inquiries are always welcome, and I'll respond as quickly as
             possible. Let's build something amazing together!
           </p>
-          <p class="description-text">
+
+          <div class="contact-form">
+            <form action="/submit" method="post">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+                rows="4"
+                required
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <p class="description-text align-center">
             I am also available on the following platforms &darr;
           </p>
           <div class="social-media-wrapper">
