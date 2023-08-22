@@ -8,6 +8,7 @@ header {
 .full-navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2.4rem 4.8rem;
   font-weight: 500;
 }
@@ -37,6 +38,23 @@ header {
   color: var(--link-color);
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+/* MOBILE NAV */
+.button-mobile-nav {
+  background: none;
+  border: none;
+  display: none;
+}
+
+.mobile-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.fa-x {
+  display: none;
 }
 
 /* HERO */
