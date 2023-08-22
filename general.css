@@ -15,10 +15,12 @@
 html {
   font-size: 62.5%;
   font-family: Inter;
+  overflow-x: hidden;
 }
 
 body {
   background-color: var(--primary);
+  overflow-x: hidden;
   /* background-image: radial-gradient(#ddd 2px, transparent 2px);
   background-size: 30px 30px; */
 }

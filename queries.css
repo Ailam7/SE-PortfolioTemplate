@@ -18,7 +18,7 @@
   }
 }
 
-/* Tablets - 95px */
+/* Tablets - 950px */
 @media (max-width: 60em) {
   /* Make hero section one column */
   .hero-box {
@@ -63,7 +63,62 @@
     grid-column: 1 / span 2;
     text-align: center;
   }
+
   .service-description {
     text-align: left;
+  }
+
+  /* MOBILE & TABLET NAVIGATION */
+  .button-mobile-nav {
+    display: block;
+    z-index: 1;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  .fa-x {
+    display: none;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+
+    transition: all 0.5s;
+    pointer-events: none;
+    visibility: hidden;
+
+    transform: translateX(100%);
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .fa-x {
+    display: block;
+  }
+
+  .nav-open .fa-bars {
+    display: none;
+  }
+
+  .navbar-contents {
+    flex-direction: column;
+    gap: 4.8rem;
+    font-size: 3rem;
   }
 }
