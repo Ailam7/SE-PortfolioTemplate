@@ -25,7 +25,7 @@
     grid-template-columns: 1fr;
     justify-content: center;
     gap: 2rem;
-    margin-top: 9.6rem;
+    margin-top: 6.4rem;
     margin-bottom: 9.6rem;
   }
 
@@ -120,5 +120,50 @@
     flex-direction: column;
     gap: 4.8rem;
     font-size: 3rem;
+  }
+}
+
+/* SMALLER TABLETS - 700px */
+@media (max-width: 44em) {
+  /* SKILLS SECTION - 3x3 */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  /* PROJECTS SECTION */
+  .projects-flexbox {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+
+  .img-box img {
+    width: 100%;
+  }
+
+  /* BLOG SECTION */
+  .articles-cards-wrapper {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+    justify-items: center;
+  }
+
+  .article-2 {
+    margin-bottom: 3.2rem;
+  }
+
+  .article-3 {
+    margin-bottom: 3.2rem;
+  }
+
+  /* SERVICES */
+  .services-grid-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .services-grid-wrapper > :nth-child(3) {
+    grid-column: auto; /* Resets the grid-column property to its default value */
+    text-align: inherit; /* Resets the text-align property to its inherited value, or you can use 'left' if that's the original alignment */
   }
 }
