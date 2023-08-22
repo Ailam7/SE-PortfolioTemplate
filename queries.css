@@ -1,0 +1,18 @@
+/* ALL MEDIA QUERRIES TO MAKE WEBSITE RESPONSIVE */
+
+@media (max-width: 75em) {
+  /* Reduce font size of all elements */
+  html {
+    font-size: 50%;
+  }
+
+  /* Decrease width of hero image */
+  .hero-img img {
+    width: 65%;
+  }
+
+  /* Reduce Navbar spacing */
+  .navbar-contents {
+    gap: 3.6rem;
+  }
+}
