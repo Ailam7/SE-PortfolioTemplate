@@ -74,11 +74,11 @@
     z-index: 1;
   }
 
-  .fa-bars {
+  .button-mobile-nav .fa-solid.fa-bars {
     display: block;
   }
 
-  .fa-x {
+  .button-mobile-nav .fa-solid.fa-x {
     display: none;
   }
 
@@ -108,11 +108,11 @@
     transform: translateX(0);
   }
 
-  .nav-open .fa-x {
+  .nav-open .fa-solid.fa-x {
     display: block;
   }
 
-  .nav-open .fa-bars {
+  .nav-open .fa-solid.fa-bars {
     display: none;
   }
 
