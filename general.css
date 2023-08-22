@@ -70,3 +70,9 @@ a {
 .align-center {
   text-align: center;
 }
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  color: var(--dark-blue);
+}

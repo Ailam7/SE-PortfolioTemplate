@@ -1,9 +1,10 @@
 /* ALL MEDIA QUERRIES TO MAKE WEBSITE RESPONSIVE */
 
+/* Landscape Tablets - 1200px */
 @media (max-width: 75em) {
   /* Reduce font size of all elements */
   html {
-    font-size: 50%;
+    font-size: 56%;
   }
 
   /* Decrease width of hero image */
@@ -14,5 +15,55 @@
   /* Reduce Navbar spacing */
   .navbar-contents {
     gap: 3.6rem;
+  }
+}
+
+/* Tablets - 95px */
+@media (max-width: 60em) {
+  /* Make hero section one column */
+  .hero-box {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
+  }
+
+  /* Center the hero image */
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Reduce size of skills items */
+  .skills-grid-item {
+    width: 9rem;
+  }
+
+  /* Make testimonials section 2x2 grid */
+  .testimonials-grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  /* Breathing room for blog section */
+  .articles-cards-wrapper {
+    gap: 2.4rem;
+    padding: 0;
+  }
+
+  /* Make services section a 1x2 grid  */
+  .services-grid-wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .services-grid-wrapper > :nth-child(3) {
+    grid-column: 1 / span 2;
+    text-align: center;
+  }
+  .service-description {
+    text-align: left;
   }
 }

@@ -50,6 +50,7 @@ header {
   margin: 0 auto;
   height: 80vh;
   padding: 0 9.6rem;
+  gap: 9.6rem;
 }
 
 .hero-title {
