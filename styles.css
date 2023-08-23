@@ -99,6 +99,7 @@ header {
   background-image: radial-gradient(#333 2px, transparent 2px);
   background-size: 30px 30px;
   padding: 3rem 0;
+  margin-bottom: 15rem;
 }
 
 .skills-title {
@@ -323,10 +324,6 @@ header {
 
 .contact-heading {
   margin-top: 12rem;
-}
-
-.contacts-container {
-  padding-top: 9.6rem;
 }
 
 .contact-form {

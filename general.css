@@ -34,7 +34,8 @@ a {
   margin: 0 auto;
   padding-left: 9.6rem;
   padding-right: 9.6rem;
-  padding-top: 15rem;
+  padding-bottom: 6.4rem;
+  padding-top: 2rem;
 }
 
 .inline-link:link,
