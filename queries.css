@@ -21,6 +21,11 @@
 /* Tablets - 950px */
 @media (max-width: 60em) {
   /* Make hero section one column */
+
+  .full-navbar {
+    align-items: end;
+  }
+
   .hero-box {
     grid-template-columns: 1fr;
     justify-content: center;
