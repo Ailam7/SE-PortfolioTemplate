@@ -4,6 +4,8 @@ This is a project that I did to practice my HTML and CSS skills. The website is 
 
 I have a live demo of the website hosted on GitHub pages, which you can check out below:
 
+https://ailam7.github.io/SE-PortfolioTemplate/
+
 ### Credits
 
 - Icons used in the skills section and the social media icons provided by font awesome
