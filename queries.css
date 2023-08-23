@@ -167,3 +167,43 @@
     text-align: inherit; /* Resets the text-align property to its inherited value, or you can use 'left' if that's the original alignment */
   }
 }
+
+@media (max-width: 35em) {
+  .container {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+
+  /* HERO */
+  .hero-box {
+    padding: 0 3.2rem;
+  }
+
+  .hero-img img {
+    width: 80%;
+  }
+
+  /* TESTIMONIALS */
+  .testimonials-grid-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .testimonials-img-wrapper img {
+    width: 30%;
+  }
+
+  /* PROJECTS */
+  .more-projects {
+    font-size: 2rem;
+  }
+
+  /* CONTACT */
+  .contact-form {
+    width: 100%;
+  }
+
+  .fa-brands.fa-8x {
+    font-size: 4rem;
+  }
+}
