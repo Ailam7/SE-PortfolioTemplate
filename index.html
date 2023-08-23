@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <script defer src="script.js"></script>
 
     <title>Personal Website Template</title>
   </head>
@@ -29,12 +30,12 @@
 
         <nav class="main-nav">
           <ul class="navbar-contents">
-            <li><a class="navbar-item" href="#about">About</a></li>
-            <li><a class="navbar-item" href="#skills">Skills</a></li>
-            <li><a class="navbar-item" href="#projects">Projects</a></li>
-            <li><a class="navbar-item" href="#blog">Blog</a></li>
-            <li><a class="navbar-item" href="#services">Services</a></li>
-            <li><a class="navbar-item" href="#contact">Contact</a></li>
+            <li><a class="navbar-item" href="#about-link">About</a></li>
+            <li><a class="navbar-item" href="#skills-link">Skills</a></li>
+            <li><a class="navbar-item" href="#projects-link">Projects</a></li>
+            <li><a class="navbar-item" href="#blog-link">Blog</a></li>
+            <li><a class="navbar-item" href="#services-link">Services</a></li>
+            <li><a class="navbar-item" href="#contacts-link">Contact</a></li>
           </ul>
         </nav>
 
@@ -46,7 +47,7 @@
       </div>
 
       <!-- HERO -->
-      <section class="hero">
+      <section class="hero" id="about-link">
         <div class="hero-box">
           <div class="hero-text">
             <h3 class="hero-title">
@@ -74,7 +75,7 @@
 
     <main>
       <!-- SKILLS -->
-      <section class="skills">
+      <section class="skills" id="skills-link">
         <div class="skills-container">
           <h3 class="secondary-heading skills-title">Technical Skills</h3>
           <div class="skills-grid">
@@ -123,7 +124,7 @@
       </section>
 
       <!-- TESTIMONIALS -->
-      <section class="testimonials">
+      <section class="testimonials" id="testimonials-link">
         <div class="container">
           <h3 class="secondary-heading">Testimonials</h3>
           <div class="testimonials-grid-container">
@@ -193,7 +194,7 @@
       </section>
 
       <!-- PROJECTS -->
-      <section class="projects">
+      <section class="projects" id="projects-link">
         <div class="container">
           <h3 class="secondary-heading">Projects</h3>
 
@@ -256,7 +257,7 @@
       </section>
 
       <!-- BLOG -->
-      <section class="blog">
+      <section class="blog" id="blog-link">
         <div class="container">
           <h3 class="secondary-heading">Blog</h3>
           <p class="description-text blog-description">
@@ -326,7 +327,7 @@
       </section>
 
       <!-- SERVICES -->
-      <section class="services">
+      <section class="services" id="services-link">
         <div class="container">
           <h3 class="secondary-heading">Services</h3>
           <div class="services-grid-wrapper">
@@ -365,8 +366,8 @@
       </section>
 
       <!-- CONTACT -->
-      <section class="contact">
-        <div class="container">
+      <section class="contact" id="contacts-link">
+        <div class="container contacts-container">
           <h3 class="secondary-heading contact-heading">Contact</h3>
           <p class="description-text">
             Ready to turn your vision into reality? Let's talk about your next
@@ -432,7 +433,10 @@
 
     <footer>
       <div class="footer-container">
-        <p class="footer-text">Copyright &#169; Jane Doe 2023</p>
+        <p class="footer-text">
+          Copyright &#169; Jane Doe
+          <span class="year">2023</span>. Template made by Ailam7
+        </p>
       </div>
     </footer>
   </body>
