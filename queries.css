@@ -130,6 +130,11 @@
 
 /* SMALLER TABLETS - 700px */
 @media (max-width: 44em) {
+  /* HERO */
+  .hero-box {
+    height: auto;
+  }
+
   /* SKILLS SECTION - 3x3 */
   .skills-grid {
     display: grid;
@@ -145,6 +150,10 @@
 
   .img-box img {
     width: 100%;
+  }
+
+  .project-description-text {
+    font-size: 1.8rem;
   }
 
   /* BLOG SECTION */
@@ -203,6 +212,11 @@
     font-size: 2rem;
   }
 
+  /* BLOG */
+  .article-card {
+    margin: 0 2.8rem;
+  }
+
   /* CONTACT */
   .contact-form {
     width: 100%;
@@ -210,5 +224,18 @@
 
   .fa-brands.fa-8x {
     font-size: 4rem;
+  }
+
+  .contacts-container {
+    padding-bottom: 2.4rem;
+  }
+
+  .social-media-wrapper {
+    margin-bottom: 2.4rem;
+  }
+
+  /* FOOTER */
+  .footer-text {
+    font-size: 1.2rem;
   }
 }
