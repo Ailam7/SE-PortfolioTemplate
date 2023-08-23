@@ -126,6 +126,14 @@
     gap: 4.8rem;
     font-size: 3rem;
   }
+
+  .full-navbar {
+    padding: 2.4rem 6.4rem;
+  }
+
+  button:hover {
+    background-color: transparent;
+  }
 }
 
 /* SMALLER TABLETS - 700px */
@@ -182,6 +190,7 @@
   }
 }
 
+/* MOBILE DEVICES - 550px */
 @media (max-width: 35em) {
   .container {
     padding-left: 2.4rem;
