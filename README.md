@@ -24,4 +24,4 @@ Functionality provided by the Script file:
 - Add functionality to mobile navigation
 - Fix an issue with flexbox gap property in some older versions of Safari
 
-Thank you for checking this project out. If you notice anything wrong, I'd appreciate it if you could let me know through email (info@mohamedailam.com)
+Thank you for checking this project out. If you notice anything wrong, I'd appreciate it if you could let me know through email (hello@vivyde.com)
